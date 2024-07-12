@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    user-select: none;
+    background: url("https://static.wixstatic.com/media/bda1ee_475d7809b4bf4103aa2536439401f572~mv2.png/v1/crop/x_307,y_94,w_1924,h_1506/fill/w_656,h_514,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/White-22-loop-def%20copy.png");
+    background-color: blue;
+    }
+    #images {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    }
+    
+    #images img {
+    width: 40%;
+    cursor: pointer;
+    }
+    #Name {
+        text-align: center;
+    }
+    #streak {
+        text-align: center;
+    }
+    #result {
+        text-align: center;
+    }
